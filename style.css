@@ -1,0 +1,86 @@
+.main{
+  width: 1080px;
+  margin: 0 auto;
+  padding: 8px 10px 0;
+}
+
+/*제목*/
+.title{
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+/*제목 끝*/
+
+
+/* 메뉴바 */
+#nav{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-bottom: 3px solid #f1f3f6;
+  }
+
+ #nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+
+#nav li:hover:not(.active){
+color: black; font-weight: bold
+}
+
+.active{
+   color: black; font-weight: bold
+}
+/* 메뉴바 끝*/
+
+
+/*푸터*/
+.footer
+{
+  padding: 10px 0;
+  background-color: #504e4e;
+  clear: both;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.foot{
+ padding:0px;
+ margin-left: 10px;
+ float: left;
+ }
+
+ .foot a{
+   color : #fff;
+   margin-left: 10px;
+   padding: 0;
+ }
+
+ .footerwriting
+ {
+   color: #fff;
+   clear: both;
+ }
+
+ /*푸터 끝*/
+
+/* 잡것*/
+ ul{
+   list-style:none;
+   padding-left:0px;
+ }
+
+ body{
+   margin: 0;
+  }
+
+ a{
+   text-decoration: none;
+  }
